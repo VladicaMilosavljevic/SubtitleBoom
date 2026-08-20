@@ -1,0 +1,4 @@
+SubtitleBoom v1.0 build check fix
+
+The whisper.cpp runtime may write CPU backend loading information to STDERR even when it starts successfully.
+BUILD.ps1 now validates whisper-cli.exe with Start-Process and checks the exit code without treating normal STDERR status output as a fatal PowerShell error.

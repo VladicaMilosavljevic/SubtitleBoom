@@ -1,0 +1,66 @@
+SubtitleBoom v1.0 - Third-Party Software Notices
+=================================================
+
+SubtitleBoom itself is licensed under the MIT License. See LICENSE.
+
+This project uses or redistributes third-party software and model files. Those
+components remain under their own licenses; SubtitleBoom's MIT License does not
+replace or relicense them.
+
+1. whisper.cpp / GGML runtime
+   Project: ggml-org/whisper.cpp
+   License: MIT
+   Used for offline speech recognition.
+   Official project: https://github.com/ggml-org/whisper.cpp
+   License copy: third_party_licenses/MIT-whisper.cpp.txt
+
+2. OpenAI Whisper model weights
+   Project: OpenAI Whisper
+   License: MIT
+   SubtitleBoom uses Whisper model weights, including Tiny and Base where
+   bundled or installed.
+   Official project: https://github.com/openai/whisper
+   License copy: third_party_licenses/MIT-OpenAI-Whisper.txt
+
+3. FFmpeg
+   Project: FFmpeg
+   Binary provider used by this release: BtbN FFmpeg Builds
+   Package family: ffmpeg-master-latest-win64-lgpl
+   The bundled executable is treated as an LGPL-compatible FFmpeg build and is
+   checked by BUILD.ps1 to reject configurations containing --enable-gpl or
+   --enable-nonfree.
+   FFmpeg: https://ffmpeg.org/
+   Build provider: https://github.com/BtbN/FFmpeg-Builds
+   Exact bundled build information: runtime/bin/FFMPEG_BUILD_INFO.txt
+   Source-compliance note: third_party_licenses/FFMPEG_SOURCE_NOTICE.txt
+   LGPL text: third_party_licenses/LGPL-2.1.txt
+
+4. LibVLCSharp.WinForms 3.10.0
+   Project: VideoLAN / LibVLCSharp
+   License: GNU Lesser General Public License v2.1
+   Used for media playback integration.
+   Official project: https://github.com/videolan/libvlcsharp
+   LGPL text: third_party_licenses/LGPL-2.1.txt
+
+5. VideoLAN.LibVLC.Windows 3.0.23.1
+   Project: VideoLAN / libVLC Windows runtime
+   NuGet package: VideoLAN.LibVLC.Windows 3.0.23.1
+   License: GNU Lesser General Public License v2.1 or later
+   Used as the native media playback runtime.
+   Package information: https://www.nuget.org/packages/VideoLAN.LibVLC.Windows
+   LGPL text: third_party_licenses/LGPL-2.1.txt
+
+Important redistribution requirements
+-------------------------------------
+Keep this notice, SubtitleBoom's LICENSE, and the applicable third-party license
+texts with redistributed binary packages.
+
+For FFmpeg binaries, also make the complete corresponding source code for the
+exact distributed FFmpeg build available in accordance with the applicable
+LGPL requirements and FFmpeg's redistribution guidance. See
+third_party_licenses/FFMPEG_SOURCE_NOTICE.txt.
+
+This file is a practical attribution summary, not legal advice and not a
+replacement for the license texts themselves.
+
+FFmpeg exact build configuration: third_party_licenses/FFMPEG_CONFIGURATION.txt

@@ -1,0 +1,25 @@
+# Build output
+**/bin/
+**/obj/
+PROGRAM/
+publish/
+
+# Bundled third-party runtime binaries
+runtime/bin/*.exe
+runtime/bin/*.dll
+
+# Whisper model binaries
+runtime/models/*.bin
+runtime/models/*.gguf
+
+# Local caches / user data
+SubtitleBoom_Data/
+*.cache
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

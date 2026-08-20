@@ -1,0 +1,43 @@
+SUBTITLEBOOM v1.0 — PUBLIC RELEASE MANIFEST
+============================================
+
+Release name:
+SubtitleBoom v1.0 — First Public Release
+
+Primary repository/source package:
+SubtitleBoom_v1.0_First_Public_Release_Source.zip
+
+Windows x64 binary package:
+SubtitleBoom_v1.0_First_Public_Release_Windows_x64.zip
+
+FFmpeg source/compliance support asset:
+SubtitleBoom_v1.0_FFmpeg_Source_and_Compliance.zip
+
+Repository license:
+MIT — see LICENSE
+
+Bundled third-party notices:
+THIRD_PARTY_LICENSES.txt
+third_party_licenses/
+
+Target platform:
+Windows x64
+.NET 8 desktop runtime required
+
+Offline components included by the build:
+- whisper.cpp runtime
+- Whisper Tiny model
+- Whisper Base model
+- FFmpeg Windows x64 executable
+- libVLC Windows x64 runtime
+
+Release verification status:
+- Full application functionality and all UI languages: tested before release cleanup.
+- Stage 1 cleanup build: passed.
+- Stage 2 x64-only LibVLC cleanup build/playback smoke test: passed.
+- Stage 3 FFmpeg LGPL About notice build/smoke test: passed.
+
+IMPORTANT:
+The public binary release must retain LICENSE, THIRD_PARTY_LICENSES.txt and the
+third_party_licenses folder. The FFmpeg source/compliance asset must be published
+alongside the Windows binary package before the release is marked final.
