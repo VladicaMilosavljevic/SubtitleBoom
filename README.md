@@ -6,14 +6,14 @@ SubtitleBoom is an offline Windows desktop application for subtitle alignment, t
 
 This source package is the release-ready source baseline for SubtitleBoom v1.0. The application version, visible window titles, localization resources, and project-data folder are finalized for the first public release.
 
-- Application: `SubtitleBoom.exe`
-- Version: `1.0.0`
-- Project data: `SubtitleBoom_Data`
-- Default UI language: English
-- Processing language default: automatic detection
-- Target platform: Windows x64
-- Target framework: .NET 8 (`net8.0-windows`)
-- Offline runtime: whisper.cpp, Whisper model files, and an LGPL-compatible FFmpeg build
+* Application: `SubtitleBoom.exe`
+* Version: `1.0.0`
+* Project data: `SubtitleBoom_Data`
+* Default UI language: English
+* Processing language default: automatic detection
+* Target platform: Windows x64
+* Target framework: .NET 8 (`net8.0-windows`)
+* Offline runtime: whisper.cpp, Whisper model files, and an LGPL-compatible FFmpeg build
 
 ## Build
 
@@ -54,11 +54,11 @@ Third-party components remain under their respective licenses. See `THIRD_PARTY_
 
 The release uses or references, among other components:
 
-- whisper.cpp / GGML runtime — MIT
-- OpenAI Whisper model weights — MIT
-- FFmpeg — LGPL-compatible build used as a separate executable
-- LibVLCSharp.WinForms — LGPL 2.1
-- VideoLAN.LibVLC.Windows 3.0.23.1 — LGPL 2.1 or later
+* whisper.cpp / GGML runtime — MIT
+* OpenAI Whisper model weights — MIT
+* FFmpeg — LGPL-compatible build used as a separate executable
+* LibVLCSharp.WinForms — LGPL 2.1
+* VideoLAN.LibVLC.Windows 3.0.23.1 — LGPL 2.1 or later
 
 For the exact FFmpeg build identifier and source-compliance note, see `runtime/bin/FFMPEG_BUILD_INFO.txt` and `third_party_licenses/FFMPEG_SOURCE_NOTICE.txt`.
 
@@ -68,10 +68,11 @@ If you redistribute a SubtitleBoom binary package that includes FFmpeg or libVLC
 
 ## Release assets
 
-For the public v1.0 release, keep the release materials separated into three assets:
+For the public v1.0 release, the following release assets are provided:
 
-1. `SubtitleBoom_v1.0_First_Public_Release_Source.zip` — project source and offline build inputs.
-2. `SubtitleBoom_v1.0_First_Public_Release_Windows_x64.zip` — the tested Windows x64 binary package.
-3. `SubtitleBoom_v1.0_FFmpeg_Source_and_Compliance.zip` — FFmpeg corresponding-source/compliance support material for the bundled FFmpeg build.
+1. `SubtitleBoom_v1.0_Windows_x64.zip` — the tested Windows x64 binary package.
+2. `FFmpeg_Source_and_Compliance_SubtitleBoom_v1.0_FINAL.zip` — FFmpeg corresponding-source and compliance support material for the bundled FFmpeg build.
+
+The SubtitleBoom source code is available directly in this public GitHub repository. GitHub also automatically provides source-code archives (`Source code (zip)` and `Source code (tar.gz)`) for the v1.0 tag.
 
 Do not remove `LICENSE`, `THIRD_PARTY_LICENSES.txt`, or `third_party_licenses` from redistributed binary packages.
