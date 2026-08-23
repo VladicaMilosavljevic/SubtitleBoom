@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 $ProgressPreference = "SilentlyContinue"
 
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -132,7 +132,6 @@ if ($LASTEXITCODE -ne 0) { throw ".NET SDK nije pronadjen." }
 Write-Host "Pronadjen .NET SDK: $version" -ForegroundColor Green
 
 $Parent1 = Split-Path $Root -Parent
-
 $Parent2 = if ([string]::IsNullOrWhiteSpace($Parent1)) {
     $null
 }
@@ -288,4 +287,6 @@ Write-Host ""
 Write-Host "Otvori PROGRAM i pokreni SubtitleBoom.exe" -ForegroundColor Yellow
 Write-Host ""
 Read-Host "Pritisni Enter da zatvoris prozor"
+
+
 

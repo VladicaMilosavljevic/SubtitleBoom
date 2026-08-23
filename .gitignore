@@ -6,14 +6,14 @@
 # .NET build output
 **/bin/
 **/obj/
+PROGRAM/
+publish/
 
-# Visual Studio
+# Visual Studio / IDE
 .vs/
+.idea/
 *.user
 *.suo
-
-# Generated application package
-PROGRAM/
 
 # Temporary / validation folders
 JSON_CHECK_TEMP/
@@ -29,10 +29,15 @@ BACKUP_*/
 
 # Whisper models
 runtime/models/*.bin
+runtime/models/*.gguf
 
 # Runtime binaries
 runtime/bin/*.exe
 runtime/bin/*.dll
+
+# Local caches / user data
+SubtitleBoom_Data/
+*.cache
 
 # Logs
 *.log
