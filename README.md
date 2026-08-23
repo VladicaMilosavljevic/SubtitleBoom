@@ -1,23 +1,5 @@
 # SubtitleBoom v1.0 — First Public Release
 
-<<<<<<< HEAD
-SubtitleBoom is an offline Windows desktop application for subtitle alignment, transcription, translation, and subtitle editing.
-
-## Release status
-
-This source package is the release-ready source baseline for SubtitleBoom v1.0. The application version, visible window titles, localization resources, and project-data folder are finalized for the first public release.
-
-- Application: `SubtitleBoom.exe`
-- Version: `1.0.0`
-- Project data: `SubtitleBoom_Data`
-- Default UI language: English
-- Processing language default: automatic detection
-- Target platform: Windows x64
-- Target framework: .NET 8 (`net8.0-windows`)
-- Offline runtime: whisper.cpp, Whisper model files, and an LGPL-compatible FFmpeg build
-
-## Build
-=======
 SubtitleBoom is a free and open-source Windows desktop application for subtitle alignment, transcription, translation, and subtitle editing.
 
 It is designed to work locally on your computer and combines automatic speech processing with a built-in subtitle editor.
@@ -81,7 +63,6 @@ Extract the archive and run `SubtitleBoom.exe`.
 The release package contains the runtime components and standard Whisper models required for offline operation.
 
 ## Build from source
->>>>>>> origin/main
 
 On Windows, run `BUILD.bat` from the source-package root.
 
@@ -98,13 +79,6 @@ The build workflow itself does not download runtime components or models.
 
 ## Documentation
 
-<<<<<<< HEAD
-User documentation is in the `docs` folder. Interface language packs are in `languages`.
-
-## Donation
-
-SubtitleBoom is free and open-source software. Voluntary donations are welcome.
-=======
 User documentation is available in the `docs` folder.
 
 Interface language packs are stored in the `languages` folder.
@@ -112,7 +86,6 @@ Interface language packs are stored in the `languages` folder.
 ## Donation
 
 SubtitleBoom is free and open-source software. If you find it useful and would like to support its development, voluntary donations are welcome.
->>>>>>> origin/main
 
 Official PayPal.Me link:
 
@@ -128,31 +101,6 @@ Third-party components remain under their respective licenses. See `THIRD_PARTY_
 
 ## Third-party components
 
-<<<<<<< HEAD
-The release uses or references, among other components:
-
-- whisper.cpp / GGML runtime — MIT
-- OpenAI Whisper model weights — MIT
-- FFmpeg — LGPL-compatible build used as a separate executable
-- LibVLCSharp.WinForms — LGPL 2.1
-- VideoLAN.LibVLC.Windows 3.0.23.1 — LGPL 2.1 or later
-
-For the exact FFmpeg build identifier and source-compliance note, see `runtime/bin/FFMPEG_BUILD_INFO.txt` and `third_party_licenses/FFMPEG_SOURCE_NOTICE.txt`.
-
-## Important redistribution note
-
-If you redistribute a SubtitleBoom binary package that includes FFmpeg or libVLC binaries, retain the applicable third-party notices and license texts. For FFmpeg, make the complete corresponding source for the exact distributed build available in accordance with the applicable LGPL requirements and FFmpeg's redistribution guidance.
-
-## Release assets
-
-For the public v1.0 release, keep the release materials separated into three assets:
-
-1. `SubtitleBoom_v1.0_First_Public_Release_Source.zip` — project source and offline build inputs.
-2. `SubtitleBoom_v1.0_First_Public_Release_Windows_x64.zip` — the tested Windows x64 binary package.
-3. `SubtitleBoom_v1.0_FFmpeg_Source_and_Compliance.zip` — FFmpeg corresponding-source/compliance support material for the bundled FFmpeg build.
-
-Do not remove `LICENSE`, `THIRD_PARTY_LICENSES.txt`, or `third_party_licenses` from redistributed binary packages.
-=======
 SubtitleBoom uses or references, among other components:
 
 * whisper.cpp / GGML runtime — MIT
@@ -184,4 +132,3 @@ The public SubtitleBoom v1.0 release provides:
 The SubtitleBoom source code is available directly in this public GitHub repository.
 
 GitHub also automatically provides source-code archives for the v1.0 tag.
->>>>>>> origin/main
