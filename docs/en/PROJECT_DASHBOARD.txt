@@ -1,0 +1,5 @@
+PROJECT OVERVIEW
+
+Open with PROJECT OVERVIEW or F2. It shows project health, total/reliable/problem/not-found cue counts, confidence statistics, manually edited rows, save state, language, model, duration, timestamps and paths to media, SRT, Project and Workspace files.
+
+Health is an advisory estimate based on alignment status, not a final quality guarantee. Always review the final SRT.

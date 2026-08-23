@@ -1,0 +1,13 @@
+SUBTITLEBOOM v1.0 — FIRST PUBLIC RELEASE
+
+- Program je dobio konačni naziv SubtitleBoom.
+- Korisnički interfejs, naslovni prozori, poruke, build skripte i aktuelna dokumentacija usklađeni su sa novim nazivom.
+- Izvršni fajl sada se zove SubtitleBoom.exe.
+- Finalno javno izdanje koristi folder SubtitleBoom_Data za cache, projekte, izveštaje i segmente.
+- Zadržane su sve funkcije iz v4.1.1 Build Fix & World Languages.
+- Kompletna TXT, DOCX i PDF dokumentacija dostupna je na srpskom i engleskom; ostali jezici interfejsa koriste englesku pomoć.
+- Ispravljen engleski F1 Keyboard Shortcuts prozor: prevedeni su naslovi kolona, grupe i sve funkcije prečica.
+- Ispravljen rezervni jezik interfejsa: ako prevod nedostaje u hrvatskom ili bilo kom drugom jeziku, koristi se engleski umesto srpskog.
+- Ispravljena regresija editora: lokalizovanje liste tolerancije više ne pokreće automatsko čuvanje pre obnove projekta, pa se čuvaju detektovani govor, izmenjeni redovi i mesto nastavka rada.
+- Prevedeni su dinamički status tolerancije, donja statusna traka i svi tooltipovi alata editora u engleskom interfejsu.
+- Sinhronizovana je programska selekcija reda: tabela, tekst desno i grafički prikaz sada uvek prelaze na isti titl pri kliku na susedni sivi segment i tokom praćenja reprodukcije.

@@ -1,0 +1,57 @@
+SUBTITLEBOOM v2.6 — BRZI POČETAK
+
+1. Izaberi video/audio.
+2. Izaberi TXT/SRT.
+3. Izaberi izlazni SRT, jezik i model.
+4. Pokreni ALIGN.
+5. Otvori editor.
+6. F3 = sledeći problem; Ctrl+Enter = primeni; Ctrl+S = sačuvaj; F1 = pomoć.
+
+
+BATCH MODE — BRZI POČETAK
+-------------------------
+1. U svaki projektni folder stavite video/audio i odgovarajući TXT.
+2. Otvorite BATCH MODE i kliknite "Dodaj folder(e)…".
+3. Za svaki red izaberite jezik i model.
+4. Kliknite "POKRENI SVE".
+5. *_aligned.srt ostaje pored videa, a pomoćni podaci u SubtitleBoom_Data.
+
+Detalji: docs\BATCH_MODE_GUIDE.txt
+
+
+V3.3 - UNIVERZALNI FORMATI
+Program otvara TXT, SRT, VTT, SBV, ASS/SSA i TTML/DFXP. Izvoz podržava SRT, VTT, SBV, ASS i TXT. Za YouTube postoji paket SRT + VTT + SBV. Detalji: SUBTITLE_FORMATS.txt.
+
+
+JEZICI OBRADE (v3.3.2)
+----------------------
+Meni za jezik obrade sadrži Automatsko prepoznavanje i kompletnu listu Whisper jezika.
+Srpski, Hrvatski i English su označeni kao testirani. Ostali jezici su tehnički podržani preko višejezičnih Whisper Tiny/Base modela, ali kvalitet zavisi od jezika, snimka i modela.
+U Batch Mode-u svaki posao može imati svoj poseban jezik.
+
+FORMIRANJE TITLOVA (v3.3.3)
+- PRELOMI REDOVE: najviše dva reda, do 44 znaka po redu.
+- PODELI: postavi kursor između dve reči i klikni dugme.
+- PAMETNO PODELI: program bira prirodno mesto podele.
+- SPOJI SA SLEDEĆIM: spaja dva susedna titla uz proveru dužine i vremena.
+- Ctrl+Z vraća svaku od ovih izmena, a Ctrl+Y je ponavlja.
+
+TRANSKRIPCIJA I PREVOD (v4.0)
+- Za pravljenje titla od nule dovoljan je video ili audio fajl.
+- Izaberi jezik govora i model Tiny ili Base.
+- Prevedi govor na engleski uključuje Whisperov prevod na engleski.
+- Program uvek pravi SRT i običan TXT.
+- Dodaj vremenske oznake u TXT pravi i poseban *_timed.txt.
+- Rezultati ostaju pored video/audio fajla i zatim se otvaraju u editoru.
+
+JEZICI I MODELI (v4.0.4)
+- Automatsko prepoznavanje je uvek prva stavka; svi ostali jezici su abecedno sortirani.
+- Za srpski izaberi Srpski - latinica ili Srpski - ćirilica direktno u listi Jezik.
+- Hrvatski koristi samo latinicu.
+- Tiny - brzo je preporučen za poravnanje i brze obrade.
+- Base - standard pruža ravnotežu brzine i preciznosti.
+- Small i jači modeli preporučeni su za zahtevniju transkripciju i prevod.
+
+MODEL TINY
+----------
+Naziv opcije je skraćen na: Tiny — brzo.

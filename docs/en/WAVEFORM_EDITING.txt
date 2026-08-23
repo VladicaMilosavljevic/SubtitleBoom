@@ -1,0 +1,5 @@
+SUBTITLEBOOM — WAVEFORM EDITING
+
+Drag the left blue edge to change cue start, the right edge to change cue end, or the center to move the entire cue without changing duration. Clicking outside the cue seeks playback. Green represents detected speech; red is current playback position.
+
+Snap to detected speech attaches a nearby boundary. Hold Shift while dragging to temporarily disable snap. On release, the change is applied, added to Undo/Redo and saved to Project.json. Overlap protection and warnings remain active.

@@ -1,0 +1,19 @@
+SUBTITLEBOOM — TRANSCRIPTION AND TRANSLATION
+
+INPUT
+Select video or audio, a known language or automatic detection, and an installed Whisper model. TXT/SRT input is not required.
+
+OUTPUT
+Original-language speech creates *_transcribed.srt and *_transcribed.txt. English translation creates *_english.srt and *_english.txt. The timestamps option additionally creates *_timed.txt.
+
+FORMATION
+Whisper tokens are grouped into complete words; a word is never split between cues. Punctuation is preserved. Cues target at most two lines and 44 characters per line, preferring sentence, clause and speech-pause boundaries. Status considers confidence and estimated reading speed. Output opens automatically in the editor.
+
+TRANSLATION LIMIT
+Whisper's Translate task translates supported speech to English. Translation to Serbian, Croatian or another target language requires a separate translation model or service.
+
+SERBIAN SCRIPT
+Serbian Latin and Serbian Cyrillic are selected in the main language list. Cyrillic conversion occurs after whole words are assembled, including lj/љ, nj/њ and dž/џ. It applies only to Serbian Cyrillic. Alignment compares Serbian scripts internally without changing the user's source text. Croatian remains Latin-only. Whisper's word choices and foreign letters are not automatically corrected.
+
+MODEL GUIDANCE
+Tiny: alignment and fast processing. Base: balanced speed and accuracy. Small and larger: demanding transcription and translation with longer processing time.

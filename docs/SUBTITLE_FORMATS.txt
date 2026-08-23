@@ -1,0 +1,25 @@
+SUBTITLEBOOM - PODRŽANI FORMATI TITLOVA
+
+UVOZ U EDITOR I POČETNU OBRADU
+- TXT: običan tekst bez vremena, od kog program pravi titl
+- SRT: SubRip
+- VTT: WebVTT
+- SBV: YouTube SBV
+- ASS / SSA: tekst i vremena; napredni stilovi se pri konverziji mogu pojednostaviti
+- TTML / DFXP: osnovni tekst i vremena
+
+IZVOZ
+- SRT
+- WebVTT (.vtt)
+- YouTube SBV (.sbv)
+- ASS (.ass), sa podrazumevanim stilom
+- TXT, samo tekst
+
+YOUTUBE PAKET
+U editoru izaberite Datoteka > Izvezi paket za YouTube. Program jednim korakom pravi SRT, VTT i SBV.
+
+BATCH MODE
+SRT se uvek pravi. Opcije WebVTT i YouTube SBV mogu se uključiti ili isključiti pre pokretanja reda. Svaki format se čuva u istom projektnom folderu.
+
+NAPOMENA O STILOVIMA
+SRT, SBV i TXT ne podržavaju napredne ASS/SSA stilove. Pri izvozu iz formatâ sa stilovima čuvaju se tekst i vremena, dok se specifični efekti mogu izgubiti. Originalni fajl treba sačuvati kao rezervnu kopiju.

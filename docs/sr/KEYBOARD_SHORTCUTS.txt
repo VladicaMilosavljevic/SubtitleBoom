@@ -1,0 +1,15 @@
+SUBTITLEBOOM v2.6 — PREČICE
+
+Space Play/Pause
+Esc Stop
+F1 Pomoć
+F3 Sledeći problem
+Shift+F3 Prethodni problem
+Alt+Left Prethodni titl
+Alt+Right Sledeći titl
+Home Prvi titl
+End Poslednji titl
+Ctrl+Enter Primeni
+Ctrl+S Sačuvaj
+Ctrl+Z Undo
+Ctrl+Y Redo

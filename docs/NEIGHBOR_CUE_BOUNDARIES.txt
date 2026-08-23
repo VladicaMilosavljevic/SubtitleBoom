@@ -1,0 +1,12 @@
+SUBTITLEBOOM v3.0.2 — SUSedNI TITLOVI NA WAVEFORM-U
+
+Na grafičkom prikazu se sada vide tri vremenska bloka:
+- sivi blok levo: prethodni titl
+- plavi blok: trenutno izabrani titl koji se uređuje
+- sivi blok desno: sledeći titl
+- zeleni blok: detektovani govor
+- crvena linija: trenutna pozicija plejera
+
+Opcija „Ne dozvoli preklapanje sa susednim titlovima” je uključena podrazumevano. Kada je uključena, leva i desna granica izabranog titla ne mogu preći preko susednih titlova. Kada je isključena, preklapanje je moguće, ali ivice izabranog titla postaju crvene i postojeće upozorenje se prikazuje pri potvrdi.
+
+Na dnu waveform-a prikazuju se trenutni razmaci do prethodnog i sledećeg titla. Promene se i dalje odmah čuvaju u projektu i ulaze u Undo/Redo istoriju.

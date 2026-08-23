@@ -1,0 +1,13 @@
+SUBTITLEBOOM v2.8.2 — PROJECT STATISTICS & PERFORMANCE
+
+Pregled projekta (F2) sada prikazuje:
+- ukupno vreme prve obrade;
+- vreme po fazama (audio, Whisper, alignment, izveštaji);
+- način obrade: pojedinačna ili Batch;
+- datum kreiranja, poslednjeg otvaranja i poslednje izmene;
+- poslednje i prosečno vreme učitavanja projekta;
+- broj otvaranja;
+- broj ručnih izmena, Apply operacija i Auto Save upisa;
+- verziju aplikacije i format projekta u Project.json.
+
+Stari projekti se i dalje otvaraju. Za njih neke statistike mogu prikazivati crticu dok se projekat ponovo ne sačuva ili obradi.

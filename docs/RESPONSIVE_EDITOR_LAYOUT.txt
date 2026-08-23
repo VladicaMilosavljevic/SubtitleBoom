@@ -1,0 +1,27 @@
+RESPONSIVE EDITOR LAYOUT - v3.1
+
+Novi raspored je napravljen tako da najvažnije funkcije ostanu vidljive bez stalnog pomeranja glavnog vertikalnog klizača.
+
+Raspored desne strane:
+1. Video ili audio prikaz.
+2. Waveform odmah ispod plejera.
+3. Kompaktni editor sa vremenima, detektovanim govorom, tekstom, statusom i komandama.
+
+Waveform prikazuje:
+- prethodni titl (sivo),
+- trenutni titl (plavo),
+- sledeći titl (sivo),
+- detektovani govor (zeleno),
+- poziciju plejera (crvena linija).
+
+Najvažnije komande su stalno vidljive:
+- Primeni,
+- Auto Fix,
+- početak/vreme na detektovani govor,
+- prethodni/sledeći problem,
+- Undo/Redo,
+- dodavanje i brisanje reda,
+- Detektuj govor,
+- Pregled projekta.
+
+Leva tabela ima sopstveni klizač. Video, waveform i editor više nisu smešteni u jedan dugačak panel sa zajedničkim skrolovanjem.

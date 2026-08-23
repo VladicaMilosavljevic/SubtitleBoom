@@ -1,0 +1,5 @@
+SMART PROJECT CACHE
+
+Media and transcript are processed once. SubtitleBoom creates SRT, Whisper cache and complete project state with detected speech. Reopening the same project is immediate and does not require speech detection. This also applies to completed Batch jobs.
+
+Run Detect Speech only when project/cache data is missing or when opening an unrelated SRT. Status tolerance changes only RELIABLE/CHECK/WEAK evaluation, never cue or detected-speech timing. Changes are saved to Project.json.

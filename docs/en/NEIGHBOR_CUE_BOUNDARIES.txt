@@ -1,0 +1,7 @@
+SUBTITLEBOOM — NEIGHBOR CUES ON THE WAVEFORM
+
+The waveform shows the previous cue in gray, the selected cue in blue, the next cue in gray, detected speech in green and the playback position as a red line.
+
+Prevent overlap with neighboring subtitles is enabled by default. When enabled, selected boundaries cannot cross adjacent cues. When disabled, overlap is possible, but selected edges turn red and confirmation displays a warning.
+
+Current gaps to previous and next cues appear at the bottom. Clicking or dragging a gray cue selects it for direct editing. Changes are saved immediately and enter Undo/Redo history.

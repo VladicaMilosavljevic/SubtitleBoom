@@ -1,0 +1,76 @@
+SUBTITLEBOOM v4.0 - KORISNIČKO UPUTSTVO
+
+Kompletno formatirano uputstvo nalazi se u ovom folderu:
+SubtitleBoom_User_Guide.pdf
+
+GLAVNI TOK RADA
+1. Izaberite video/audio i TXT.
+2. Izaberite jezik i model.
+3. Pokrenite obradu.
+4. Program pravi SRT, Smart Cache i kompletan projekat.
+5. Editor se otvara sa detektovanim govorom.
+6. Svaka primenjena izmena se odmah čuva.
+
+RESPONSIVE EDITOR
+- Video/audio je gore.
+- Waveform je odmah ispod.
+- Vremena, govor, tekst, status i najvažnije komande stalno su vidljivi.
+- Leva tabela ima sopstveni klizač.
+
+Detaljna objašnjenja za Batch, waveform, toleranciju, Smart Cache, Dashboard, statistiku, prečice i rešavanje problema nalaze se u PDF priručniku.
+
+
+V3.3 - UNIVERZALNI FORMATI
+Program otvara TXT, SRT, VTT, SBV, ASS/SSA i TTML/DFXP. Izvoz podržava SRT, VTT, SBV, ASS i TXT. Za YouTube postoji paket SRT + VTT + SBV. Detalji: SUBTITLE_FORMATS.txt.
+
+POMERANJE DESNOG DONJEG PANELA
+Ako sve kontrole ispod grafičkog prikaza zvuka i titla ne stanu na ekran,
+koristite vertikalni klizač na desnoj ivici panela ili postavite pokazivač miša
+iznad tog panela i okrećite točkić miša. Tako možete doći do polja za tekst,
+dugmeta PRIMENI i ostalih komandi bez promene rasporeda programa.
+
+
+JEZICI OBRADE (v3.3.2)
+----------------------
+Meni za jezik obrade sadrži Automatsko prepoznavanje i kompletnu listu Whisper jezika.
+Srpski, Hrvatski i English su označeni kao testirani. Ostali jezici su tehnički podržani preko višejezičnih Whisper Tiny/Base modela, ali kvalitet zavisi od jezika, snimka i modela.
+U Batch Mode-u svaki posao može imati svoj poseban jezik.
+
+MODEL TINY
+----------
+Naziv opcije je skraćen na: Tiny — brzo.
+
+FORMIRANJE TITLOVA (v3.3.3)
+---------------------------
+- PRELOMI REDOVE raspoređuje tekst u najviše dva reda, do 44 znaka po redu.
+- PODELI deli izabrani titl na mestu kursora.
+- PAMETNO PODELI bira prirodno mesto podele prema interpunkciji i dužini teksta.
+- SPOJI SA SLEDEĆIM spaja izabrani i naredni titl; program upozorava na veliki vremenski razmak, predugačak tekst ili preveliku brzinu čitanja.
+- Sve ove izmene odmah osvežavaju tabelu i plejer, automatski se čuvaju i podržavaju Undo/Redo.
+- AUTO FIX ostaje namenjen vremenskom poravnanju. Suvišna dugmad Početak = govor i Vreme = govor su uklonjena.
+
+TRANSKRIPCIJA I PREVOD (v4.0)
+--------------------------------
+Novi režim pretvara video ili audio direktno u titlove i tekst, bez obaveznog TXT/SRT ulaza.
+
+1. Izaberite video ili audio fajl.
+2. Izaberite jezik govora ili automatsko prepoznavanje.
+3. Izaberite Whisper model Tiny ili Base.
+4. Za engleski prevod uključite Prevedi govor na engleski.
+5. Ako želite dodatni TXT sa vremenskim oznakama, uključite Dodaj vremenske oznake u TXT.
+6. Kliknite TRANSKRIPCIJA / PREVOD IZ VIDEA ILI AUDIJA.
+
+Program uvek pravi SRT i običan TXT. Kada je opcija za vremena uključena, pravi i poseban *_timed.txt. Titl se automatski formira prema pauzama, rečenicama, trajanju i ograničenju od 44 znaka po redu, a zatim se otvara u editoru.
+
+VAŽNO: Whisper direktno prevodi podržane jezike na engleski. Za prevode sa engleskog na srpski ili između drugih ciljnih jezika bio bi potreban dodatni prevodilački model.
+
+JEZICI I SRPSKO PISMO (v4.0.4)
+--------------------------------
+Automatsko prepoznavanje je prva stavka, a svi ostali jezici su abecedno sortirani. Srpski - latinica i Srpski - ćirilica biraju se direktno iz glavne liste. Poseban meni za srpsko pismo je uklonjen.
+
+Kod transkripcije izabrana srpska stavka određuje izlazno pismo. Kod poravnanja program interno usklađuje latinicu i ćirilicu, ali ne menja korisnikov tekst. Hrvatski ostaje isključivo na latinici i ne koristi srpsku ćiriličnu konverziju.
+
+NAMENA MODELA
+- Tiny - brzo: preporučen za poravnanje postojećeg teksta i brze obrade.
+- Base - standard: uravnotežen odnos brzine i preciznosti.
+- Small i jači: zahtevnija transkripcija i prevod, uz duže vreme obrade.

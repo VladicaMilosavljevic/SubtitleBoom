@@ -1,0 +1,5 @@
+SUBTITLEBOOM — RESPONSIVE EDITOR LAYOUT
+
+The right side keeps the media preview at the top, waveform directly below, and a compact editor with timing, detected speech, text, status and commands. The waveform shows previous/current/next cues, detected speech and playback position.
+
+Apply, Auto Fix, problem navigation, Undo/Redo, add/delete row, speech detection and project overview remain accessible. The left table has its own scrollbar; the lower-right panel scrolls independently on smaller displays.

@@ -1,0 +1,20 @@
+SUBTITLEBOOM v3.0.1 — GRAFIČKO UREĐIVANJE WAVEFORM-A
+
+Waveform panel sada omogućava direktno uređivanje vremena titla mišem.
+
+KONTROLE
+- Povuci levu plavu ivicu: promena početka titla.
+- Povuci desnu plavu ivicu: promena kraja titla.
+- Povuci sredinu plavog bloka: pomeranje celog titla bez promene trajanja.
+- Klik izvan plavog bloka: pomeranje plejera na izabrano vreme.
+- Zeleni blok: detektovani govor.
+- Crvena linija: trenutna pozicija plejera.
+
+SNAP
+Opcija „Snap na detektovani govor” automatski lepi početak ili kraj titla za najbližu granicu detektovanog govora kada su veoma blizu.
+Drži SHIFT tokom povlačenja da privremeno isključiš snap.
+
+ČUVANJE I ZAŠTITA
+Po otpuštanju miša promena se odmah primenjuje, ulazi u Undo/Redo istoriju i automatski se čuva u Project.json.
+Ako nova vremena preklapaju susedni titl, program prikazuje isto upozorenje kao kod ručnog unosa.
+Postojeća polja za ručno vreme, dugmad, Smart Cache, Batch Mode i alignment ostaju nepromenjeni.

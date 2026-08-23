@@ -1,0 +1,43 @@
+﻿# ==========================================
+# SubtitleBoom v1.0
+# Git ignore rules
+# ==========================================
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Generated application package
+PROGRAM/
+
+# Temporary / validation folders
+JSON_CHECK_TEMP/
+JsonCheck/
+
+# Backups and temporary files
+BACKUP_*/
+*.bak
+*.tmp
+*.old
+*.backup
+*.BACKUP_*
+
+# Whisper models
+runtime/models/*.bin
+
+# Runtime binaries
+runtime/bin/*.exe
+runtime/bin/*.dll
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

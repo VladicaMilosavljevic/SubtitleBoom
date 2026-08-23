@@ -1,0 +1,13 @@
+SMART PROJECT CACHE — v2.8
+
+Normalan tok rada:
+1. Video/audio + TXT se obrađuju jednom.
+2. Program automatski pravi SRT, Whisper cache i kompletan projekat sa detektovanim govorom.
+3. Sledeće otvaranje je trenutno i ne zahteva Detektuj govor.
+4. Isto važi za svaki posao završen u Batch Mode-u.
+5. Detektuj govor se koristi samo kada projekat/cache ne postoji, kada je obrisan ili kada se otvara tuđi SRT.
+
+Tolerancija statusa menja samo procenu POUZDANO / PROVERITI / SLABO. Ne menja vremena titlova ni detektovanog govora. Svaka promena se odmah čuva u Project.json.
+
+
+v2.8.1: Dodata je ručna tolerancija i prikaz numeričkih odstupanja u tooltip-u statusa.

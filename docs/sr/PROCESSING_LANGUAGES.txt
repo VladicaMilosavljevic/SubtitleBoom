@@ -1,0 +1,36 @@
+SUBTITLEBOOM v4.0.4 - JEZICI OBRADE
+
+Program koristi višejezične Whisper modele. Jezik interfejsa i jezik govora su nezavisni.
+
+REDOSLED LISTE
+- Automatsko prepoznavanje (auto) uvek je prva stavka.
+- Svi ostali jezici automatski su sortirani abecedno prema prikazanom nazivu.
+- Oznaka testirano ne menja redosled jezika.
+
+KAKO SE BIRA JEZIK
+1. U glavnom prozoru otvorite polje Jezik.
+2. Počnite da kucate naziv jezika ili njegov kod.
+3. Izaberite jezik i pokrenite obradu.
+4. U Batch Mode-u svaki red može imati drugačiji jezik.
+
+AUTOMATSKO PREPOZNAVANJE
+Opcija Automatsko prepoznavanje (auto) prepušta Whisper-u izbor jezika. Kada unapred znate jezik snimka, ručni izbor je obično pouzdaniji.
+
+TESTIRANO U SUBTITLEBOOMU
+- English (en)
+- Hrvatski (hr) - samo latinica
+- Srpski - latinica (sr-Latn; Whisper kod sr)
+- Srpski - ćirilica (sr-Cyrl; Whisper kod sr)
+
+SRPSKO PISMO
+Srpsko pismo bira se direktno iz glavne liste jezika. Poseban meni za pismo ne postoji. Transkripcija se formira na izabranom pismu, dok poravnanje interno usklađuje latinicu i ćirilicu bez menjanja korisnikovog teksta.
+
+Hrvatski ne koristi srpsku ćiriličnu konverziju i ostaje isključivo na latinici.
+
+OSTALI JEZICI
+Kompletna lista dostupna je u programu i obuhvata sve jezike koje podržavaju višejezični Whisper modeli. Tačnost zavisi od jezika, kvaliteta snimka i modela.
+
+MODELI
+- Tiny - brzo: poravnanje postojećeg teksta i brze obrade.
+- Base - standard: ravnoteža brzine i preciznosti.
+- Small i jači: zahtevnija transkripcija i prevod, uz duže vreme obrade.

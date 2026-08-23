@@ -1,0 +1,7 @@
+SUBTITLEBOOM — PROFESSIONAL EDITING TOOLS
+
+WRAP LINES creates at most two balanced lines of 44 characters. SPLIT divides the selected cue at the cursor. SMART SPLIT chooses a natural boundary using punctuation and text balance. MERGE WITH NEXT joins adjacent text and timing after checking gap, length and reading speed. If text cannot fit safely, wrapping recommends a split. All commands affect only the selected cue and support Undo/Redo.
+
+ADD ROW ABOVE/BELOW creates a cue, assigns initial timing, renumbers rows and saves immediately. DELETE ROW or Delete removes the selected cue after confirmation. Ctrl+Z reverses structural, timing or text changes; Ctrl+Y restores them.
+
+Whisper cache is not changed. A new row initially receives WEAK and NOT FOUND until adjusted or speech detection is run. Structural changes persist in Project.json.

@@ -1,0 +1,5 @@
+SUBTITLEBOOM — CUSTOM TOLERANCE
+
+In the editor select Status tolerance > Custom. Set the maximum start deviation for RELIABLE and the upper limit for CHECK. Values above the second limit become WEAK.
+
+The change is immediate. It does not run Whisper, move subtitles or alter detected speech; it only recalculates statuses. Values are stored in the project. Hover over a table status to see actual start/end deviation and confidence.

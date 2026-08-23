@@ -1,0 +1,3 @@
+SUBTITLEBOOM — AUDIO PLAYER
+
+For video, the player displays video and subtitles normally. For MP3, WAV, FLAC, M4A, AAC, OGG, OPUS or WMA, it displays a neutral audio background with a music note and the active subtitle near the bottom. Text follows playback automatically and reflects applied edits immediately.

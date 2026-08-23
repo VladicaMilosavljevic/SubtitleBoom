@@ -1,0 +1,5 @@
+SUBTITLEBOOM — WAVEFORM PREVIEW
+
+The panel displays several seconds around the selected cue: selected cue in blue, neighboring cues in gray, detected speech in green and playback position in red. Click to seek. It works with video and audio and does not alter alignment or cache.
+
+Cue boundaries and centers can be dragged directly; see WAVEFORM_EDITING.txt.

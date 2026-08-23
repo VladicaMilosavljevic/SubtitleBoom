@@ -1,0 +1,15 @@
+SUBTITLEBOOM — WAVEFORM PREVIEW
+
+Waveform panel prikazuje nekoliko sekundi zvuka oko trenutno izabranog titla.
+
+- Plavi blok: početak i kraj izabranog titla.
+- Crvena linija: trenutna pozicija plejera.
+- Klik na waveform: plejer skače na izabrano vreme.
+- Panel radi sa video i audio fajlovima.
+- Waveform je samo dodatni prikaz i ne menja alignment, cache ili Batch Mode.
+
+U ovoj prvoj fazi ivice titla se ne pomeraju mišem. Vremena se i dalje uređuju kroz postojeća polja i dugmad.
+
+
+NOVO U v3.0.1
+Waveform više nije samo prikaz. Ivicama i sredinom plavog bloka može se direktno menjati vreme titla. Detalji su u WAVEFORM_EDITING.txt.

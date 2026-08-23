@@ -1,0 +1,77 @@
+SUBTITLEBOOM v1.0 - KORAK PO KORAK
+=======================================
+
+1. Raspakuj ceo ZIP u novi folder.
+2. Pokreni BUILD.bat.
+3. Sačekaj poruku: BUILD SUBTITLEBOOM v1.0 OFFLINE JE USPESNO ZAVRSEN.
+4. Otvori folder PROGRAM i pokreni SubtitleBoom.exe.
+
+TEST TRANSKRIPCIJE
+1. Izaberi video ili audio.
+2. Proveri da je početni jezik Automatsko prepoznavanje.
+3. Proveri da je ostatak liste jezika poređan po abecedi.
+4. Za test izaberi Srpski - latinica ili Srpski - ćirilica direktno iz liste Jezik.
+5. Izaberi Tiny ili Base model. Pređi mišem preko modela i proveri kratak opis namene.
+6. Ostavi Prevedi govor na engleski isključeno.
+7. Po želji čekiraj Dodaj vremenske oznake u TXT.
+8. Klikni NAPRAVI TRANSKRIPCIJU IZ VIDEA ILI AUDIJA.
+9. Kod ćirilice proveri reči kao ljudi, njegov i džip: moraju biti људи, његов i џип.
+10. Proveri da nijedna reč nije podeljena između dva titla.
+11. Proveri da su Whisperove tačke, zarezi i ostala interpunkcija sačuvani.
+12. Proveri da titl ima najviše dva reda i da redovi ciljaju do 44 znaka.
+13. Proveri napravljeni SRT, običan TXT, opcioni *_timed.txt i editor.
+
+TEST PORAVNANJA ĆIRILICE
+1. Izaberi Srpski - ćirilica iz glavne liste Jezik.
+2. Učitaj srpski ćirilični TXT ili SRT i odgovarajući audio/video.
+3. Pokreni ALIGN i proveri rezultate u editoru.
+4. Program sme interno da poredi latinicu i ćirilicu, ali ne sme da menja tekst koji je učitan.
+
+Hrvatski ostaje zaseban jezik i program ga ne pretvara u ćirilicu.
+
+TEST PREVODA
+Ponovi test sa srpskim ili hrvatskim govorom, ali uključi Prevedi govor na engleski. Whisper pravi engleski SRT i TXT.
+
+Postojeći Auto Fix, Split, Merge, cache, Batch i plejer nisu menjani.
+
+TEST PAMĆENJA RADA U EDITORU
+1. Ručno promeni tekst ili vreme na nekoliko različitih titlova.
+2. Proveri da izmenjeni redovi imaju olovku i veoma svetlu nebeskoplavu pozadinu.
+3. Proveri da trenutno izabrani red ostaje jasno tamnoplav.
+4. Zatvori editor dok je izabran jedan od kasnijih titlova, pa ponovo otvori isti projekat.
+5. Program mora da vrati olovke, svetloplave redove i poslednji izabrani titl.
+6. Redovi sa tekstom NIJE PRONAĐEN moraju imati podebljana crvena slova.
+
+TEST REZERVNE KOPIJE
+1. Izaberi Datoteka > Sačuvaj / Izvezi kao i sačuvaj *_edited.srt.
+2. Napravi još jednu kopiju, na primer *_backup_01.srt.
+3. Ponovo otvori svaku SRT kopiju i proveri da svaka vraća sopstvene oznake i poslednju poziciju.
+4. Projektna stanja nalaze se u SubtitleBoom_Data\Project pored odgovarajućeg radnog foldera.
+
+TEST GRAFIČKOG UREĐIVANJA SUSEDNIH TITLOVA
+1. Izaberi titl koji ima prikazan sivi prethodni i sivi sledeći blok na waveform traci.
+2. Klikni na sredinu sivog bloka: njegov red mora postati aktivan, a blok plav.
+3. Prevuci sredinu sivog bloka da pomeriš ceo susedni titl.
+4. Prevuci levu ili desnu ivicu sivog bloka da promeniš početak ili kraj.
+5. Proveri da se tabela, tekst i vreme odmah prebace na izabrani susedni titl.
+6. Proveri Snap, zabranu preklapanja, Undo i Redo.
+7. Izmenjeni susedni red mora dobiti olovku i svetlu nebeskoplavu boju.
+8. Pusti reprodukciju nekoliko minuta i proveri da traka i editor ne koče.
+
+TEST AUDIO PRIKAZA
+1. Otvori SRT sa odgovarajućim audio fajlom.
+2. Na crnom pregledu mora da se vidi grafička muzička nota, bez natpisa AUDIO FAJL.
+3. Aktivni titl mora biti pri dnu, beo, podebljan i sa crnim obrubom.
+4. Pusti audio i proveri promenu titlova u realnom vremenu.
+
+TEST JEZIKA INTERFEJSA
+1. Otvori Pomoć > Jezik programa.
+2. Testiraj Srpski - latinica, English i Hrvatski; posle izbora ponovo pokreni program.
+3. Automatski izbor treba da prati jezik Windowsa, a za ostale Windows jezike koristi English.
+4. Jezik interfejsa ne sme da promeni izabrani Whisper jezik obrade.
+
+TEST DONACIJE
+1. Bez PayPal.Me linka otvori Pomoć > Podrži razvoj i proveri jasnu informativnu poruku.
+2. Za pravi test upiši zvanični https://paypal.me/... link u PROGRAM\config\donation.txt.
+3. Ponovo pokreni program i proveri da stavka otvara link u podrazumevanom pregledaču.
+4. Program ne sme da prihvati HTTP niti domen koji nije paypal.me.

@@ -1,0 +1,11 @@
+SUBTITLEBOOM v2.7.2 — AUDIO PLAYER
+======================================
+
+Kada je učitan video fajl, plejer prikazuje video i titl kao i ranije.
+
+Kada je učitan audio fajl (MP3, WAV, FLAC, M4A, AAC, OGG, OPUS ili WMA),
+plejer prikazuje neutralnu audio pozadinu i tekst titla koji je aktivan na
+trenutnoj vremenskoj poziciji.
+
+Tekst se automatski menja tokom reprodukcije i odmah prati ručne izmene
+nakon komande Primeni.

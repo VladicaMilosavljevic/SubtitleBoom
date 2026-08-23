@@ -1,0 +1,11 @@
+SUBTITLEBOOM — PROCESSING LANGUAGES
+
+SubtitleBoom uses multilingual Whisper models. Interface language and spoken language are independent.
+
+Automatic detection is always first; all other languages are alphabetized by displayed name. Type a language name or code to find it. Each Batch row can use a different language.
+
+Automatic detection lets Whisper choose. Manual selection is usually more reliable when the language is known.
+
+Validated entries include English, Croatian (Latin only), Serbian Latin and Serbian Cyrillic. Serbian script is selected directly in the main list. Transcription uses the selected output script; alignment normalizes both scripts internally without changing user text. Croatian never uses Serbian Cyrillic conversion.
+
+Accuracy for other supported languages depends on language, recording quality and model. Tiny is fast and useful for alignment; Base balances speed and accuracy; Small and larger models improve demanding transcription and translation at the cost of time.

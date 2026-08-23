@@ -1,0 +1,51 @@
+TRANSKRIPCIJA I PREVOD - v4.0
+=============================
+
+ULAZ
+- Video ili audio fajl.
+- TXT ili SRT nije potreban.
+- Jezik može biti izabran ručno ili automatski prepoznat.
+- Koristi se izabrani Whisper Tiny/Base ili dodatni instalirani model.
+
+IZLAZ
+- *_transcribed.srt i *_transcribed.txt za govor na originalnom jeziku.
+- *_english.srt i *_english.txt kada je uključen prevod na engleski.
+- Dodatni *_timed.txt kada je čekirano Dodaj vremenske oznake u TXT.
+
+FORMIRANJE
+- Najviše dva reda i cilj do 44 znaka po redu.
+- Podela prema pauzama, kraju rečenice, trajanju i dužini.
+- Status koristi Whisper sigurnost i procenjenu brzinu čitanja.
+- Rezultat se automatski otvara u editoru.
+
+OGRANIČENJE PREVODA
+Whisperov ugrađeni Translate režim prevodi govor na engleski. Prevod na srpski, hrvatski ili druge ciljne jezike zahtevao bi poseban prevodilački model ili servis.
+
+SRPSKO PISMO (v4.0.2)
+- Kada je izabran Srpski, dostupni su Automatski, Latinica i Ćirilica.
+- Automatski zadržava Whisperov zapis.
+- Latinica normalizuje eventualnu ćirilicu u srpsku latinicu.
+- Ćirilica pretvara srpsku latinicu u ćirilicu, uključujući lj/љ, nj/њ i dž/џ.
+- Skraćenice velikim slovima, brojevi i mešoviti nazivi ostaju nepromenjeni kada je moguće.
+
+FORMIRANJE TITLOVA (v4.0.3)
+- Whisper tokeni se najpre grupišu u cele reči.
+- Reč se nikada ne deli između dva titla.
+- Čuva se interpunkcija koju je Whisper proizveo.
+- Titl ima najviše dva reda i cilj do 44 znaka po redu.
+- Granice preferiraju rečenicu, klauzu ili govornu pauzu.
+- Program ne ispravlja Whisperov izbor reči niti strana slova.
+
+JEZICI I SRPSKO PISMO (v4.0.4)
+- Automatsko prepoznavanje je uvek prvo; ostali jezici su abecedno sortirani.
+- Srpski - latinica i Srpski - ćirilica biraju se direktno iz glavne liste jezika.
+- Poseban meni Srpsko pismo više ne postoji.
+- Lj/Nj/Dž se pretvaraju tek posle sastavljanja cele reči u Љ/Њ/Џ.
+- Ćirilična konverzija važi isključivo za Srpski - ćirilica.
+- Hrvatski ostaje na latinici.
+- Kod poravnanja srpska latinica i ćirilica interno se porede u zajedničkom obliku, ali se korisnikov tekst ne menja.
+
+PREPORUČENA NAMENA MODELA
+- Tiny - brzo: poravnanje postojećeg teksta i brze obrade.
+- Base - standard: ravnoteža brzine i preciznosti.
+- Small i jači: zahtevnija transkripcija i prevod, uz duže vreme obrade.

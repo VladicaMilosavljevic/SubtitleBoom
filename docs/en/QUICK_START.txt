@@ -1,0 +1,23 @@
+SUBTITLEBOOM v1.0 — QUICK START
+
+ALIGNMENT
+1. Select a video or audio file.
+2. Select the corresponding TXT or subtitle file.
+3. Choose the output SRT, spoken language, and Whisper model.
+4. Click ALIGN — CREATE SRT, then open the editor.
+5. F3 moves to the next problem; Ctrl+Enter applies a change; Ctrl+S saves; F1 opens help.
+
+BATCH MODE
+Place each media file and matching TXT in the same project folder. Open Batch Mode, add the parent folder, select a language and model for every row, then click START ALL. The aligned SRT remains beside the media; supporting data is stored in SubtitleBoom_Data.
+
+FORMATS
+Import: TXT, SRT, VTT, SBV, ASS/SSA and TTML/DFXP. Export: SRT, VTT, SBV, ASS and TXT. The YouTube package creates SRT, VTT and SBV together.
+
+SUBTITLE FORMATION
+WRAP LINES creates up to two balanced lines of 44 characters. SPLIT divides at the cursor. SMART SPLIT chooses a natural boundary. MERGE WITH NEXT joins adjacent cues after checking timing, length and reading speed. Undo/Redo is supported.
+
+TRANSCRIPTION AND TRANSLATION
+A video or audio file can be transcribed directly to SRT and plain TXT. Optional timed TXT is available. Whisper translation produces English output. Serbian Latin and Serbian Cyrillic are selected directly from the language list.
+
+MODELS
+Tiny — fast is recommended for alignment and quick work. Base — standard balances speed and accuracy. Small and larger models are better for demanding transcription and translation but take longer.

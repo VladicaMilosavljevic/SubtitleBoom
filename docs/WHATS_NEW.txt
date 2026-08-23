@@ -1,0 +1,165 @@
+v1.0 — FIRST PUBLIC RELEASE
+
+- Prva javna verzija programa pod konačnim nazivom SubtitleBoom.
+- Zasnovana na razvojnoj liniji Subtitle Aligner v4.1.1.
+- Program je dobio konačni naziv SubtitleBoom.
+- Izvršni fajl sada se zove SubtitleBoom.exe.
+- Interfejs, build poruke, dokumentacija i jezički paketi koriste novi naziv.
+- Finalno javno izdanje koristi folder SubtitleBoom_Data za projektne podatke.
+- Ispravljen CS0103 build problem iz v4.1.0.
+- Dodat izbor između 15 jezika interfejsa.
+- Automatski izbor prati jezik Windowsa, uz engleski fallback.
+- Jezik interfejsa ne utiče na Whisper jezik obrade.
+
+v4.1.0 — FINALIZATION PREVIEW
+=============================
+
+- Novi audio ekran sa muzičkom notom i titlom pri dnu.
+- Dobrovoljna podrška razvoju preko podesivog PayPal.Me linka.
+- Jezici interfejsa: automatski, srpski latinica, English i hrvatski.
+- Jezički izbor interfejsa potpuno je odvojen od Whisper jezika.
+
+v4.0.8 — NEIGHBOR WAVEFORM EDITING
+==================================
+
+- Sivi susedni titlovi sada se biraju i uređuju direktno na waveform traci.
+- Klik ili drag suseda automatski ga pretvara u aktivni plavi titl.
+
+v4.0.7 — EDITOR RENDERING FIX
+=============================
+
+- Ispravljeno blokiranje editora pri iscrtavanju zapamćenih redova.
+- Traka, plejer i kontrole sada mogu normalno da se osvežavaju u realnom vremenu.
+
+v4.0.6 — EDITING PROGRESS
+=========================
+
+- Editor pamti ručno izmenjene redove i poslednji izabrani titl.
+- Svetla nebeskoplava razlikuje obrađene redove od tamnoplave selekcije.
+- NIJE PRONAĐEN je crven i podebljan.
+- Svaki Save As SRT dobija nezavisno projektno stanje.
+
+v4.0.5 — MODEL DOWNLOAD FIX
+===========================
+
+- Ispravljeno zaključavanje privremenog .download fajla pri instalaciji dodatnih Whisper modela.
+- Folder TEST više se ne isporučuje u korisničkom izvornom paketu.
+
+SubtitleBoom v2.8.1
+- Ručno podešavanje tolerancije statusa.
+- Trenutno preračunavanje POUZDANO / PROVERITI / SLABO.
+- Numerička odstupanja i confidence u tooltip-u statusa.
+- Automatsko čuvanje ručnih pragova u projektu.
+
+SUBTITLEBOOM v2.6 — ŠTA JE NOVO
+
+- Kompletne tastaturne prečice
+- F1 pregled prečica
+- Meni Pomoć
+- Tooltipovi
+- Uvodni prozor
+- Offline dokumentacija
+
+Alignment, cache, segmentirana obrada i offline build nisu menjani.
+
+v2.7 — Project & Batch Manager
+- Obrada više video/audio + TXT/SRT parova redom.
+- Poseban folder za svaki projekat.
+- Automatsko i ručno uparivanje.
+- Pauza, otkazivanje i ponovno pokretanje neuspelih poslova.
+
+
+v2.7.1 — Folder Batch Workflow
+- Video/audio + TXT kao Batch ulaz.
+- SRT se pravi pored videa.
+- Poseban jezik i model za svaki posao.
+- Bez centralnog Documents foldera i bez kopiranja originala.
+- Rekurzivno dodavanje foldera i automatsko uparivanje u istom folderu.
+
+v2.7.4 — Project Dashboard & Health
+- F2 otvara pregled celog projekta.
+- Dodata procena zdravlja projekta i statistika poravnanja.
+- Prikazane su lokacije svih važnih projektnih fajlova.
+
+
+v2.8.2 — Project Statistics & Performance
+- Dashboard prikazuje vreme obrade, faze, učitavanja i istoriju editovanja.
+
+
+v2.9 — Professional Editing Tools (Phase 1)
+- Dodavanje titla iznad ili ispod.
+- Brisanje titla.
+- Potpuni Undo/Redo za strukturne izmene.
+- Automatsko čuvanje i prenumerisanje.
+
+v3.1.0 - RESPONSIVE EDITOR & COMPLETE DOCUMENTATION
+- Video/audio prikaz ostaje na vrhu.
+- Waveform se nalazi odmah ispod plejera.
+- Kompaktni editor prikazuje najvažnija polja i komande bez glavnog vertikalnog skrolovanja.
+- Ažurirano kompletno korisničko uputstvo.
+- PDF priručnik dostupan iz menija Pomoć.
+
+
+V3.3 - UNIVERZALNI FORMATI
+Program otvara TXT, SRT, VTT, SBV, ASS/SSA i TTML/DFXP. Izvoz podržava SRT, VTT, SBV, ASS i TXT. Za YouTube postoji paket SRT + VTT + SBV. Detalji: SUBTITLE_FORMATS.txt.
+
+v3.3.1 – Right editor scrolling restored
+- Vraćen je vertikalni klizač desnog donjeg panela ispod grafičkog prikaza zvuka i titla.
+- Panel se ponovo pomera točkićem miša.
+- Polje za tekst, dugme PRIMENI i ostale komande ostaju dostupni i na manjim rezolucijama.
+- Raspored, waveform, plejer i ostale funkcije nisu pomerani.
+
+
+JEZICI OBRADE (v3.3.2)
+----------------------
+Meni za jezik obrade sadrži Automatsko prepoznavanje i kompletnu listu Whisper jezika.
+Srpski, Hrvatski i English su označeni kao testirani. Ostali jezici su tehnički podržani preko višejezičnih Whisper Tiny/Base modela, ali kvalitet zavisi od jezika, snimka i modela.
+U Batch Mode-u svaki posao može imati svoj poseban jezik.
+
+MODEL TINY
+----------
+Naziv opcije je skraćen na: Tiny — brzo.
+
+v3.3.3 — SUBTITLE FORMATTING
+- Uklonjena su suvišna dugmad Početak = govor i Vreme = govor; AUTO FIX ostaje nepromenjen.
+- PRELOMI REDOVE formira najviše dva reda sa do 44 znaka po redu.
+- PODELI deli titl na mestu kursora.
+- PAMETNO PODELI traži prirodnu jezičku granicu.
+- SPOJI SA SLEDEĆIM proverava vremenski razmak, dužinu i brzinu čitanja pre spajanja.
+- Split, Merge i prelom odmah osvežavaju editor, automatski se čuvaju i rade sa Undo/Redo.
+
+v4.0 — TRANSCRIPTION & TRANSLATION
+- Video ili audio sada može direktno da se pretvori u SRT i običan TXT.
+- Čekiranje Dodaj vremenske oznake u TXT pravi i posebnu vremenski označenu TXT varijantu.
+- Whisperov režim Prevedi govor na engleski pravi engleski SRT i TXT.
+- Automatsko formiranje koristi pauze, interpunkciju, najviše dva reda i do 44 znaka po redu.
+- Rezultat se odmah otvara u postojećem editoru radi pregleda i korekcije.
+
+v4.0.1 — BUILD FIX
+- Ispravljena greška CS7036 u TranscriptionService.
+- Ispravljen zastareli v2.9 naslov u Build prozoru.
+- Funkcionalnost v4.0 nije menjana.
+
+v4.0.2 — TOKEN, UTF-8 & SERBIAN SCRIPT FIX
+- Ispravljeno spajanje Whisper tokena za sve jezike, uključujući srpski i hrvatski.
+- Ispravljen UTF-8 prikaz znakova č, ć, š, ž i đ.
+- Početni jezik je Automatsko prepoznavanje.
+- Dodata jasna oznaka Transkripcija / Prevod na engleski.
+- Za srpski je dodat izbor Automatski, Latinica ili Ćirilica.
+- Stari segmentni cache iz v4.0/v4.0.1 se ne koristi.
+
+v4.0.3 — SUBTITLE FORMATION FIX
+- Titlovi se dele samo između celih reči.
+- Sačuvana je Whisperova interpunkcija.
+- Najviše dva reda, sa ciljem do 44 znaka po redu.
+- Novi titl se pravi kada sledeća reč ne može bezbedno da stane.
+- Whisperove reči, uključujući strana slova poput y, ostaju nepromenjene.
+
+v4.0.4 — LANGUAGES & SERBIAN SCRIPT INTEGRATION
+- Uklonjen poseban meni Srpsko pismo.
+- Dodati Srpski - latinica i Srpski - ćirilica u glavnu listu.
+- Auto je prvi, ostali jezici su abecedno sortirani.
+- Ispravljeno lj/љ, nj/њ i dž/џ posle sastavljanja cele reči.
+- Ćirilična obrada važi samo za srpski; hrvatski ostaje na latinici.
+- Poravnanje srpske latinice i ćirilice koristi zajednički interni oblik.
+- Dodata objašnjenja preporučene namene modela.

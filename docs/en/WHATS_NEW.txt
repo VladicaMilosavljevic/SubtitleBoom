@@ -1,0 +1,15 @@
+SUBTITLEBOOM v1.0 — FIRST PUBLIC RELEASE
+
+- First public release under the final SubtitleBoom name, based on the Subtitle Aligner v4.1.1 development line.
+- SubtitleBoom.exe, rebranded interface, build messages, documentation and language packs.
+- Fifteen interface languages with automatic Windows-language selection and English fallback.
+- Interface language remains independent from the Whisper processing language.
+- Audio preview uses a music-note graphic and places subtitles at the bottom.
+- Configurable PayPal.Me donation link.
+- Neighboring gray waveform cues can be selected and edited directly.
+- Manually edited rows and the last position persist across sessions and Save As copies.
+- Edited rows use a light sky-blue background; NOT FOUND is bold red.
+- Fixed editor rendering stalls and optional Whisper-model download locking.
+- TEST is excluded from the release package.
+- Serbian Latin/Cyrillic processing, multilingual transcription, English translation, subtitle formation, Split, Smart Split, Merge, Batch Mode, Smart Cache, project statistics and portable offline operation are included.
+- The final public release uses SubtitleBoom_Data for project data.

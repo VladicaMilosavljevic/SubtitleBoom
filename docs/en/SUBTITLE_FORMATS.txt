@@ -1,0 +1,11 @@
+SUBTITLEBOOM — SUPPORTED SUBTITLE FORMATS
+
+IMPORT
+TXT (untimed plain text), SRT, WebVTT, YouTube SBV, ASS/SSA and TTML/DFXP. Advanced ASS/SSA styles may be simplified during conversion.
+
+EXPORT
+SRT, WebVTT, YouTube SBV, ASS with a default style, and plain-text TXT.
+
+File > Export YouTube Package creates SRT, VTT and SBV together. Batch always creates SRT and can optionally create VTT and SBV in the same project folder.
+
+SRT, SBV and TXT do not preserve advanced ASS/SSA styling. Keep the original styled file as a backup.

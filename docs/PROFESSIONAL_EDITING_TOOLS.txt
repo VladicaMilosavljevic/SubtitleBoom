@@ -1,0 +1,29 @@
+SUBTITLEBOOM v3.3.3 — PROFESSIONAL EDITING TOOLS
+
+FORMIRANJE TITLOVA
+- PRELOMI REDOVE: najviše dva reda, do 44 znaka po redu, sa uravnoteženim prelomom između reči.
+- PODELI: postavi kursor između dve reči i podeli trenutni titl na dva vremenska segmenta.
+- PAMETNO PODELI: program bira prirodnu granicu prema interpunkciji i sredini teksta.
+- SPOJI SA SLEDEĆIM: spaja tekst i vreme dva susedna titla i proverava razmak, dužinu i brzinu čitanja.
+- Sve komande rade samo nad izabranim titlom i podržavaju Undo/Redo.
+- Ako tekst ne može da stane u dva reda po 44 znaka, PRELOMI REDOVE predlaže Split.
+
+DODAVANJE REDA
+- Izaberi postojeći titl.
+- Klikni DODAJ RED IZNAD ili DODAJ RED ISPOD.
+- Program automatski dodeljuje početno vreme, prenumeriše redove i odmah čuva projekat.
+- Novi red dobija tekst "Novi titl" koji odmah možeš da zameniš.
+
+BRISANJE REDA
+- Izaberi titl i klikni OBRIŠI RED ili pritisni Delete.
+- Potvrdi brisanje.
+- Program prenumeriše redove i odmah čuva projekat.
+
+UNDO / REDO
+- Ctrl+Z vraća dodavanje, brisanje, promenu vremena ili teksta.
+- Ctrl+Y ponavlja vraćenu izmenu.
+
+VAŽNO
+- Whisper cache se ne menja.
+- Dodati red dobija status SLABO i govor NIJE PRONAĐEN dok se ručno ne podesi ili ne pokrene rezervna detekcija govora.
+- Sve strukturne izmene čuvaju se u Project.json, pa ostaju prisutne posle ponovnog otvaranja projekta.

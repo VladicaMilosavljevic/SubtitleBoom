@@ -1,0 +1,14 @@
+SUBTITLEBOOM — KEYBOARD SHORTCUTS
+
+Space  Play/Pause
+Esc  Stop
+F1  Help
+F2  Project overview
+F3  Next problem
+Shift+F3  Previous problem
+Alt+Left / Alt+Right  Previous / next subtitle
+Home / End  First / last subtitle
+Ctrl+Enter  Apply
+Ctrl+S  Save
+Ctrl+Z / Ctrl+Y  Undo / Redo
+Delete  Delete selected subtitle

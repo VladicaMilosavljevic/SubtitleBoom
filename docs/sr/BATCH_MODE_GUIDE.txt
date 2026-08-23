@@ -1,0 +1,86 @@
+SUBTITLEBOOM — BATCH MODE VODIČ
+===================================
+
+1. ŠTA JE ULAZ?
+
+Za svaki projekat potrebna su dva originalna fajla:
+
+- video ili audio fajl
+- TXT fajl sa tekstom koji se izgovara
+
+SRT nije potreban kao ulaz, zato što ga SubtitleBoom pravi.
+
+2. PREPORUČENA ORGANIZACIJA
+
+Korisnik može unapred da napravi foldere po jeziku ili projektu:
+
+D:\MOJI VIDEO PROJEKTI\
+  SRPSKI\
+    Video_SR_01.mp4
+    Video_SR_01.txt
+  ENGLISH\
+    Video_EN_01.mp4
+    Video_EN_01.txt
+  HRVATSKI\
+    Video_HR_01.mp4
+    Video_HR_01.txt
+
+Program ne premešta ove fajlove i ne pravi centralni folder u Documents.
+
+3. DODAVANJE U BATCH MODE
+
+- Otvorite BATCH MODE.
+- Kliknite "Dodaj folder(e)…" i izaberite glavni folder ili jedan jezički folder.
+- Program pretražuje izabrani folder i njegove podfoldere.
+- Video/audio se automatski uparuje sa TXT fajlom u istom folderu.
+- Ako uparivanje nije dobro, dvokliknite polje TXT u tabeli i izaberite tačan fajl.
+
+4. PODEŠAVANJE SVAKOG PROJEKTA
+
+Svaki red u tabeli ima sopstvena podešavanja:
+
+- Jezik govora: English, Srpski ili Hrvatski
+- Model / brzina: Tiny, Base ili drugi instalirani model
+
+To znači da u istom redu čekanja možete obrađivati projekte na različitim jezicima i sa različitim modelima.
+
+5. REZULTATI
+
+Ako su originalni fajlovi:
+
+D:\MOJI VIDEO PROJEKTI\SRPSKI\Video_SR_01.mp4
+D:\MOJI VIDEO PROJEKTI\SRPSKI\Video_SR_01.txt
+
+posle obrade ostaju:
+
+D:\MOJI VIDEO PROJEKTI\SRPSKI\
+  Video_SR_01.mp4
+  Video_SR_01.txt
+  Video_SR_01_aligned.srt
+  SubtitleBoom_Data\
+    Cache\
+    Project\
+    Reports\
+    Segments\
+
+SRT ostaje pored videa. Pomoćni fajlovi se čuvaju u SubtitleBoom_Data kao i kod obične pojedinačne obrade.
+
+6. BEZBEDNOST ORIGINALA
+
+Batch Mode:
+
+- ne pomera originalne fajlove
+- ne kopira originalne fajlove
+- ne briše originalne fajlove
+- ne menja originalni TXT
+
+7. RED ČEKANJA
+
+Obrada ide jedan projekat za drugim. To je stabilnije za sporije računare i ne pokreće više Whisper procesa istovremeno.
+
+Dostupne komande:
+
+- POKRENI SVE
+- Pauziraj posle trenutnog
+- Otkaži trenutni
+- Ponovi neuspele

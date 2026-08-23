@@ -1,0 +1,11 @@
+SUBTITLEBOOM v2.8.1 — PRILAGOĐENA TOLERANCIJA
+
+U editoru izaberite Tolerancija statusa → Prilagođena.
+
+POUZDANO do: najveće dozvoljeno odstupanje početka za zeleni status.
+PROVERITI do: najveće odstupanje za žuti status.
+Sve preko druge granice dobija status SLABO.
+
+Promena je trenutna i ne pokreće Whisper, ne pomera titlove i ne menja detektovani govor. Menjaju se samo statusi POUZDANO / PROVERITI / SLABO.
+
+Vrednosti se automatski čuvaju u projektu. Program interno čuva i stvarna odstupanja početka i kraja, kao i confidence. Pređite mišem preko statusa u tabeli da biste videli te brojke.

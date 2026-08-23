@@ -1,0 +1,1 @@
+﻿BUILD.bat ovde automatski preuzima multilingual ggml-base.bin model.

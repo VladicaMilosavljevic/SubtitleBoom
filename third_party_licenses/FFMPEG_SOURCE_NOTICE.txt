@@ -1,0 +1,32 @@
+FFmpeg corresponding-source notice for SubtitleBoom v1.0
+
+SubtitleBoom distributes an FFmpeg executable built from FFmpeg source revision:
+
+    e1e325235ee2f9f81b39d47ac2f9fe529257589e
+    version string: N-126217-ge1e325235e-20260819
+
+Provider/build family:
+    BtbN FFmpeg Builds
+    ffmpeg-master-latest-win64-lgpl
+
+The exact configure line embedded in the distributed executable is recorded in:
+    FFMPEG_CONFIGURATION.txt
+
+FFmpeg is licensed under the GNU Lesser General Public License (LGPL) version
+2.1 or later when built without GPL/nonfree options. The bundled executable was
+checked to contain neither --enable-gpl nor --enable-nonfree, and libx264/libx265
+are disabled.
+
+IMPORTANT FOR BINARY RELEASE:
+The corresponding source code for the exact FFmpeg binary, together with source
+needed to satisfy applicable obligations for statically linked LGPL libraries,
+must be made available alongside the SubtitleBoom binary download.
+
+The public release page must not claim that FFmpeg corresponding-source
+compliance is complete until that source archive is actually published.
+
+FFmpeg project:
+    https://ffmpeg.org/
+
+BtbN FFmpeg Builds:
+    https://github.com/BtbN/FFmpeg-Builds

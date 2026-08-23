@@ -1,0 +1,19 @@
+SUBTITLEBOOM — BATCH MODE GUIDE
+
+INPUT
+Each project needs a video/audio file and matching TXT transcript. SRT is not required because SubtitleBoom creates it.
+
+ORGANIZATION
+Keep matching media and TXT files in the same folder. You may organize parent folders by language or project. SubtitleBoom searches selected folders recursively, pairs matching files in each folder and never moves originals into a central Documents location.
+
+ADDING JOBS
+Open Batch Mode, click Add folder(s), and select a parent or language folder. If automatic pairing is wrong, double-click the TXT cell and select the correct file.
+
+SETTINGS
+Every row has its own spoken language and Whisper model, so one queue may contain different languages and models.
+
+OUTPUT
+The *_aligned.srt file is saved beside the media. Supporting Cache, Project, Reports and Segments are stored in SubtitleBoom_Data beside the project. Optional VTT and SBV output can be enabled.
+
+SAFETY AND QUEUE
+Batch Mode does not move, copy, delete or modify original files. Jobs run one at a time for stability. Commands include Start All, pause after current, cancel current and retry failed.

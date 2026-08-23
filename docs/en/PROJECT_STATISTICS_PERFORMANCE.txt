@@ -1,0 +1,5 @@
+SUBTITLEBOOM — PROJECT STATISTICS AND PERFORMANCE
+
+Project Overview reports total first-processing time, time by audio/Whisper/alignment/report phase, single or Batch mode, creation/open/edit dates, latest and average load time, open count, manual edits, Apply operations, Auto Save writes, application version and Project.json format version.
+
+Older projects still open; some values may remain blank until the project is processed or saved again.

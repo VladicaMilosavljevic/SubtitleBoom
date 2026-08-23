@@ -1,0 +1,32 @@
+SUBTITLEBOOM v1.0 — USER MANUAL
+
+The complete formatted guide is in SubtitleBoom_User_Guide.pdf.
+
+MAIN WORKFLOW
+1. Select video/audio and TXT or an existing subtitle file.
+2. Choose the spoken language and Whisper model.
+3. Start alignment, transcription or translation.
+4. SubtitleBoom creates output files, Smart Cache and project state.
+5. Review detected speech and status in the editor.
+6. Applied changes are saved automatically.
+
+EDITOR
+The media preview is at the top, the waveform is below it, and timing, speech, text, status and editing commands remain visible. The left subtitle table has its own scrollbar. The lower-right panel can be scrolled with its scrollbar or mouse wheel on smaller displays.
+
+FORMATS AND EXPORT
+SubtitleBoom imports TXT, SRT, VTT, SBV, ASS/SSA and TTML/DFXP. It exports SRT, VTT, SBV, ASS and TXT. File > Export YouTube Package creates SRT, VTT and SBV together.
+
+LANGUAGES
+Automatic detection appears first; other processing languages are sorted alphabetically. Serbian Latin and Serbian Cyrillic are separate entries. Alignment compares both scripts internally without changing the user's text. Croatian remains Latin-only.
+
+SUBTITLE TOOLS
+WRAP LINES creates at most two lines of 44 characters. SPLIT divides at the cursor. SMART SPLIT finds a natural language boundary. MERGE WITH NEXT joins two cues after safety checks. AUTO FIX remains the timing-alignment command. All changes update the table and preview, support Undo/Redo and are saved automatically.
+
+TRANSCRIPTION AND TRANSLATION
+Media can be converted directly to SRT and TXT without a source transcript. Select a language or automatic detection and a Whisper model. Enable Translate speech to English for English output. Enable timestamps in TXT for an additional *_timed.txt file. Whisper translates to English only; other target languages require a separate translation model or service.
+
+MODELS
+Tiny — fast: alignment and quick processing. Base — standard: balanced speed and accuracy. Small and larger: better for demanding transcription and translation, with longer processing time.
+
+PROJECT DATA
+SubtitleBoom_Data contains Cache, Project, Reports and Segments. Keep this folder with the related media and subtitles. Existing Subtitle Aligner projects remain compatible.

@@ -1,0 +1,17 @@
+PREGLED PROJEKTA
+================
+
+Pregled projekta otvara se dugmetom PREGLED PROJEKTA ili tasterom F2.
+
+Prozor prikazuje:
+- zdravlje projekta u procentima;
+- ukupan broj titlova;
+- broj pouzdanih i problematičnih titlova;
+- broj titlova za koje govor nije pronađen;
+- STRONG, MODERATE i WEAK statistiku;
+- broj ručno izmenjenih redova;
+- stanje čuvanja i poslednje vreme čuvanja;
+- jezik, model i trajanje projekta;
+- putanje media, SRT, Project i Workspace fajlova.
+
+Zdravlje projekta je pomoćna procena zasnovana na statusima poravnanja. Ne predstavlja konačnu potvrdu kvaliteta; završni SRT i dalje treba pregledati.
