@@ -128,8 +128,10 @@ Do not remove `LICENSE`, `THIRD_PARTY_LICENSES.txt`, or `third_party_licenses` f
 The public SubtitleBoom v1.0 release provides:
 
 1. `SubtitleBoom_v1.0_Windows_x64.zip` — tested Windows x64 binary package.
-2. `FFmpeg_Source_and_Compliance_SubtitleBoom_v1.0_FINAL.zip` — corresponding FFmpeg source and compliance-support material for the bundled FFmpeg build.
+   - SHA-256: `1a9e1065c33fe9c72f6528527a1034568f9b1afa51d71a5bb1b82af27ef25504`
+2. `SubtitleBoom_v1.0_Source.zip` — release-ready SubtitleBoom v1.0 source package.
+   - SHA-256: `c1e5dad38920b8679216541cb1b1dde486890bc5b687a6dfc5be62c7da3a59fd`
+3. `FFmpeg_Source_and_Compliance_SubtitleBoom_v1.0_FINAL.zip` — corresponding FFmpeg source and compliance-support material for the bundled FFmpeg build.
+   - SHA-256: `7c28e8354b1c50765a31d11ac7ea3f58d3a129b6063a108e6b73c34c7bb4ac9c`
 
-The SubtitleBoom source code is available directly in this public GitHub repository.
-
-GitHub also automatically provides source-code archives for the v1.0 tag.
+GitHub also automatically provides source-code archives for the `v1.0` tag.
