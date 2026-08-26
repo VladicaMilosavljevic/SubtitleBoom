@@ -113,6 +113,7 @@ For the exact FFmpeg build identifier and source-compliance information, see:
 
 * `runtime/bin/FFMPEG_BUILD_INFO.txt`
 * `third_party_licenses/FFMPEG_SOURCE_NOTICE.txt`
+* `third_party_licenses/LGPL-3.0.txt`
 
 ## Important redistribution note
 
