@@ -33,7 +33,8 @@ replace or relicense them.
    Build provider: https://github.com/BtbN/FFmpeg-Builds
    Exact bundled build information: runtime/bin/FFMPEG_BUILD_INFO.txt
    Source-compliance note: third_party_licenses/FFMPEG_SOURCE_NOTICE.txt
-   LGPL text: third_party_licenses/LGPL-2.1.txt
+   LGPL v3 text supplied with the original BtbN binary package:
+   third_party_licenses/LGPL-3.0.txt   
 
 4. LibVLCSharp.WinForms 3.10.0
    Project: VideoLAN / LibVLCSharp

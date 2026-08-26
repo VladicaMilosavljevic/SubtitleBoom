@@ -8,25 +8,53 @@ SubtitleBoom distributes an FFmpeg executable built from FFmpeg source revision:
 Provider/build family:
     BtbN FFmpeg Builds
     ffmpeg-master-latest-win64-lgpl
+    Windows x86_64 static LGPL build
+
+Bundled ffmpeg.exe SHA-256:
+    D9E7DE8198CA4463635E516273DC9989B0996C6D25B58597A3D2F2615ECB005C
+
+This SHA-256 matches the ffmpeg.exe contained in the original BtbN binary
+package used for this SubtitleBoom release.
 
 The exact configure line embedded in the distributed executable is recorded in:
     FFMPEG_CONFIGURATION.txt
 
-FFmpeg is licensed under the GNU Lesser General Public License (LGPL) version
-2.1 or later when built without GPL/nonfree options. The bundled executable was
-checked to contain neither --enable-gpl nor --enable-nonfree, and libx264/libx265
-are disabled.
+The distributed FFmpeg build was configured with --enable-version3 and without
+--enable-gpl or --enable-nonfree. Under FFmpeg's licensing rules, enabling
+--enable-version3 makes the applicable FFmpeg license GNU Lesser General Public
+License version 3 or later (LGPL v3+).
+
+The LGPL v3 license text supplied with the original BtbN binary package is
+included as:
+    LGPL-3.0.txt
+
+libx264, libx265, libxavs2, libxvid, libfdk-aac, librubberband and libvidstab
+are disabled in the distributed FFmpeg configuration.
 
 IMPORTANT FOR BINARY RELEASE:
-The corresponding source code for the exact FFmpeg binary, together with source
-needed to satisfy applicable obligations for statically linked LGPL libraries,
-must be made available alongside the SubtitleBoom binary download.
 
-The public release page must not claim that FFmpeg corresponding-source
-compliance is complete until that source archive is actually published.
+The corresponding source code for the exact FFmpeg revision used by the
+distributed binary, together with the relevant build-system snapshot, patches,
+source-revision information and source needed to satisfy applicable obligations
+for statically linked third-party libraries, must be made available in
+accordance with the applicable licenses.
+
+The accompanying SubtitleBoom FFmpeg source/compliance archive records the
+exact FFmpeg revision, the BtbN build-system snapshot used for the build, and
+the external dependency source provenance identified for this binary.
+
+Third-party libraries incorporated into the FFmpeg build remain subject to
+their own licenses. The FFmpeg LGPL license does not replace or relicense those
+components.
 
 FFmpeg project:
     https://ffmpeg.org/
 
+FFmpeg licensing information:
+    https://ffmpeg.org/legal.html
+
 BtbN FFmpeg Builds:
     https://github.com/BtbN/FFmpeg-Builds
+
+This notice is provided as a practical source and redistribution record and is
+not legal advice.
