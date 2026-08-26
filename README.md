@@ -35,7 +35,7 @@ It is designed to work locally on your computer and combines automatic speech pr
 * Multiple interface languages
 * Tiny and Base Whisper models included in the standard offline package
 * Additional Whisper models can be used when available locally
-* Designed to work without an Internet connection after installation
+* Designed to work without an Internet connection once the package has been extracted
 
 ## Release status
 
